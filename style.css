@@ -1,62 +1,20 @@
-.div_fundo{
-    width: 800px;
-    height: 500px;
-    border: solid 10px rgb(52, 124, 206);
-    background-image: linear-gradient(#006aac, #03a1c0);
-}
-
-.div_cadastroaluno{
-    width: 800px;
-    height: 70px;
-    border: solid 1px rgb(228, 227, 227);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    text-align: center;
-    line-height: 70px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: white;
-}
-
-.div_imagem{
-    width: 398px;
-    height: 427px;
-    border: solid 1px rgb(228, 227, 227);
-    border-bottom-left-radius: 10px;
-    float: left;
-    background: white;
-}
-
-.div_formulario{
-    width: 398px;
-    height: 427px;
-    border: solid 1px rgb(228, 227, 227);
-    border-bottom-right-radius: 10px;
-    text-align: center;
-    line-height: 40px;
-    float: right; 
-    background: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.div_cadastro{
-    width: 170px;
-    height: 40px;
-    border: solid 1px blue;
-    border-radius: 5px;
-    background-image: linear-gradient(#006acc, #03a1c0);
-    text-align: center;
-    line-height: 40px;
-}
-
-.div_invisivel{
-    width: 800px;
-    height: 800px;
+.container{
+    font-size: 1.2rem;
     text-align: left;
-    line-height: 40px;
-    padding-left: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.text-input{
-    width: 230px;
+.caixa_3{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px lightgreen;
+    font-weight: 400;
+}
+
+.caixa_45{
+    background-color: lightskyblue;
+    border: solid 1px purple;
+}
+
+.caixa_69{
+    background-color: lightseagreen;
+    border: solid 1px green;
 }
