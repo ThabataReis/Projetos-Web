@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site</title>
+
+  <!--ICONE-->
+  <link rel="icon" href="imagem/perf.jpg">
+
+ <!--CSS-->
+ <link rel="stylesheet" href="style.css">
+
+ <!--BOOTSTRAP-->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+ <!--CHAMANDO FONT AWESOME-->
+<script src="https://kit.fontawesome.com/365168cdc3.js" crossorigin="anonymous"></script> 
+
+<!--JAVA SCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <!--CONTAINER-->
+  <div class="container-fluid">
+
+    <div class="row">
+
+    <!--DIV CABECA-->
+    <div class="div_cabeca">
+
+  <!--DIV IMAGEM-->
+  <div class="div_imagem">
+    <img src="imagem/logo.jpg" style="width: 200px; height: 200px;">
+  </div>
+  <!--FECHA DIV IMAGEM-->
+
+
+  <!--DIV ICONES-->
+  <div class="div_icones">
+    <img src="imagem/instagram.jpg" style="width: 50px; height: 50px;">
+    <img src="imagem/twitter.gif" style="width: 50px; height:50px;">
+    <img src="imagem/youtube.jpg" style="width: 50px; height: 50px;">
+  </div>
+  <!--FECHA DIV ICONES-->
+
+  <!--DIV CONTATO-->
+  <div class="div_contato">
+    Ligue já: (15) 99743-0787
+    <br>
+    <img src="imagem/whats.png" style="width: 30px; height: 30px;"> 
+    (15) 99743-0787
+    <br><br>
+
+    <i class="fas fa-shopping-bag" style="font-size: 35px;"></i> <b>     Minha Conta </b>
+  </div>
+  <!--FECHA DIV CONTATO-->
+
+  <!--FECHA DIV CABECA-->
+  </div>
+
+
+  <!--COLLAPSE-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Femininos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Masculinos</a>
+          </li>     
+          <li class="nav-item">
+            <a class="nav-link" href="#">Importados</a>
+          </li>      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mais Vendidos  
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Feminino</a></li>
+              <li><a class="dropdown-item" href="#">Masculino</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Kits</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Ofertas</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search"  aria-label="Search">
+          <div class="div_botao">
+          <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!--FECHA COLLAPSE-->
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <h4 id="scrollspyHeading1"></h4>
+  <p>  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagem/ofertaum.png" class="d-block w-100 banner_padrao" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Combinação Perfeita.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagem/ofertadois.gif"  class="d-block w-100 banner_padrao" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p>Com as melhoras ofertas.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagem/ofertaquatro.png"  class="d-block w-100 banner_padrao" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Sinta o Desafio.</h5>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</p>
+
+
+<p>
+  <font size="5" face="Times">
+    <b>CONHEÇA A NOVA LINHA</b>
+  </font>
+  </p>
+  
+
+
+   <!--SESSAO COLORIDA-->
+   <div class="sessao_colorida">
+
+    <!--INICIO LINHA-->
+    <div class="row justify-content-center">
+
+      <!--INICIO COLUNA-->
+      <div class="col-12 col-sn-5 col-md-3 caixa_servico">
+
+        <div class="card" style="width: 100%;">
+          <img src="imagem/femininoscandal.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"> FEMININOS</h5>
+            <p class="card-text">Perfumes femininos com até 52%.</p>
+            <a href="#" class="btn btn-primary"></i>Compre Agora</a>
+            <br><br>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control">
+              <button class="btn btn-outline-secondary"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--FIM COLUNA-->
+
+      <!--INICIO COLUNA-->
+      <div class="col-12 col-sn-5 col-md-3 caixa_servico">
+
+        <div class="card" style="width: 100%;">
+          <img src="imagem/masculino.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"> MASCULINOS</h5>
+            <p class="card-text">Perfumes masculinos com até 64%.</p>
+            <a href="#" class="btn btn-primary">Compre Agora</a>
+            <br><br>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control">
+              <button class="btn btn-outline-secondary"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--FIM COLUNA-->
+
+      <!--INICIO COLUNA-->
+      <div class="col-12 col-sn-5 col-md-3 caixa_servico">
+
+        <div class="card" style="width: 100%;">
+          <img src="imagem/kit.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">PRESENTEAR</h5>
+            <p class="card-text">Kits para presentear com até 48%.</p>
+            <a href="#" class="btn btn-primary">Compre Agora</a>
+            <br><br>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control">
+              <button class="btn btn-outline-secondary"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--FIM COLUNA-->
+      
+    </div>
+    <!--FIM LINHA-->
+
+  </div>
+  <!--FECHA SESSAO COLORIDA-->
+
+</div>
+<!--FECHA CONTAINER-->
+
+
+
+ <!--FECHA CONTAINER-->
+ </div>  
+  <br><br>
+
+  <div class="container-fluid">
+
+   <!--SESSAO FUNDO-->
+   <div class="sessao_fundo">
+
+    <!--INICIO LINHA-->
+    <div class="row justify-content-center">
+
+      <!--INICIO COL DEPOIMENTOS-->
+      <div class="col-12 col-md-12">
+        <div class="div_qualifi"> 
+       <b>DEPOIMENTOS </b>
+       </div>
+      </div>
+
+      <!--INICIO COLUNA-->
+      <div class="col-12 col-md-5 caixa_arine">
+
+        <div class="card mb-6" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="imagem/arine.png" style="width: 180px; height: 180px; border-radius: 50%; margin: 10px;">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+             <br><br>
+                <h5 class="card-title">Arine:</h5>
+                <p class="card-text">Amei o preços.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--FIM COLUNA-->
+
+      <!--INICIO COLUNA-->
+      <div class="col-12 col-md-5 caixa_heitor">
+
+          <div class="card mb-6" style="max-width: 100%;">
+            <div class="row g-0">
+              
+              <div class="col-md-6">
+                <div class="card-body">
+               <br><br>
+               
+                  <h5 class="card-title">Heitor:</h5>
+                  <p class="card-text">Estou satisfeito com os produtos.</p>
+                  
+                  
+                </div>
+              </div>
+              
+              <div class="col-md-6">
+                <img src="imagem/heitor.jfif" style="width: 180px; height: 180px; border-radius: 50%; margin: 10px;">
+               </div>
+
+            </div>
+          </div>
+
+      </div>
+      <!--FIM COLUNA-->
+
+         <!--INICIO COLUNA-->
+         <div class="col-12 col-md-5 caixa_arine">
+
+          <div class="card mb-6" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="imagem/isabella.jpeg" style="width: 180px; height: 180px; border-radius: 50%; margin: 10px;">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+               <br><br>
+                  <h5 class="card-title">Isabella:</h5>
+                  <p class="card-text">Estou adorando o site, vou comprar mais vezes.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--FIM COLUNA-->
+
+        <!--INICIO COLUNA-->
+      <div class="col-12 col-md-5 caixa_heitor">
+
+        <div class="card mb-6" style="max-width: 100%;">
+          <div class="row g-0">
+            
+            <div class="col-md-6">
+              <div class="card-body">
+             <br><br>
+             
+                <h5 class="card-title">Leticia:</h5>
+                <p class="card-text">Exelente, sempre compro meus perfumes aqui.</p>
+                
+                
+              </div>
+            </div>
+            
+            <div class="col-md-6">
+              <img src="imagem/leticia.jfif" style="width: 180px; height: 180px; border-radius: 50%; margin: 10px;">
+             </div>
+
+          </div>
+        </div>
+
+    </div>
+    <!--FIM COLUNA-->  
+  
+  </div>
+  <!--FECHA SESSAO FUNDO-->
+
+  </div>
+
+  <br><br>
+
+  <!--CONTAINER-->
+     <div class="container-fluid">
+
+  <div class="div_rodape">
+    
+    <!--INICIO LINHA-->
+    <div class="row justify-content-center">
+  
+      <!--INICIO COLUNA-->
+      <div class="col-12 col-sn-5 col-md-3">
+
+        <!--ABRE DIV MENU-->
+        <div class="div_menu">
+        <b>  M E N U  </b>
+          <br><br>
+          HOME
+          <br><br>
+          Sair
+          <br><br>
+        </div>
+        <!--FECHA DIV MENU-->
+
+      </div>
+      <!--FIM COLUNA-->
+
+      
+      <!--INICIO COLUNA-->
+      <div class="col-12 col-sn-5 col-md-3">
+
+        <!--ABRE DIV MENU-->
+        <div class="div_menu">
+         <b> D E S T A Q U E </b>
+          <br><br>
+          Novidades
+          <br><br>
+          Mais Vendidos
+          <br><br>
+          Ofertas
+        </div>
+        <!--FECHA DIV MENU-->
+
+      </div>
+      <!--FIM COLUNA-->
+
+      <!--INICIO COLUNA-->
+      <div class="col-12 col-sn-5 col-md-3">
+
+        <!--ABRE DIV MENU-->
+          <div class="div_menu">
+           <b> I N S T I T U C I O N A L   </b>
+            <br><br>
+            Sobre a Empresa
+            <br><br>
+            Segurança
+            <br><br>
+            Benefícios
+            <br><br>
+            Trabalhe Conosco
+          </div>
+          <!--FECHA DIV MENU-->
+
+      </div>
+      <!--FIM COLUNA-->
+
+      <!--INICIO COLUNA-->
+      <div class="col-12 col-sn-5 col-md-3">
+
+        <!--ABRE DIV OUTROS-->
+        <div class="div_outros">
+         <b> S E R V I Ç O S </b>
+          <br><br>
+          Atendimento
+          <br><br>
+          Meus Pedidos
+          <br><br>
+          Minha Conta
+        </div>
+        <!--FECHA DIV OUTROS-->
+
+      </div>
+      <!--FIM COLUNA-->
+
+  </div>
+  <!--FECHA CAIXA FUNDO-->
+
+</div>
+<!--FIM LINHA-->
+
+</div>
+<!--FECHA CONTAINER--> 
+
+  </div>
+
+</div>
+  
+</body>
+</html>
+
+<!--JAVASCRIPT-->
+<script>
+
+  var toastTrigger = document.getElementById('liveToastBtn')
+  var toastLiveExample = document.getElementById('liveToast')
+  if (toastTrigger) {
+    toastTrigger.addEventListener('click', function () {
+      var toast = new bootstrap.Toast(toastLiveExample)
+  
+      toast.show()
+    })
+  }
+  </script>

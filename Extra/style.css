@@ -1,0 +1,180 @@
+.div_cabeca{
+    width: 100%;
+    height: 240px;
+    background-color: rgb(247, 220, 224);
+}
+
+.div_imagem{
+    float: left;
+    padding: 20px;
+}
+
+.div_icones{
+    margin-left: 1100px;
+    padding: 20px;
+}
+
+.div_contato{
+    font-size: medium;
+    color: rgb(31, 28, 28);
+    margin-left: 1100px;
+}
+
+.div_conta{
+    padding: auto;
+    margin-left: 1100px;
+    clear: both;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.row{
+    --bs-gutter-x: 0rem;
+}
+
+.sessao_cinza{
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sessao_colorida{
+    background-color: rgb(250, 210, 217);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.caixa_servico{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: salmon;
+    border: solid 1px pink;
+}
+
+.btn-primary:hover{
+    background-color: salmon;
+    border: solid 1px pink;
+    opacity: 80%;
+}
+
+.banner_padrao{
+    height: 480px !important;
+    object-fit: fill;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    left: 0% !important;
+    bottom: 0% !important;
+}
+
+.banner_padrao{
+    height: 480px !important;
+    object-fit: fill;
+
+}
+
+.carousel-caption{
+    background-color: rgba(102, 101, 101, 0.6);
+    width: 100%;
+    left: 0% !important;
+    bottom: 0% !important;
+
+}
+
+.carousel-item{
+    margin:auto;
+}
+
+.sessao_fundo{
+    width: 100%;
+    background-color: rgb(250, 229, 229);
+    padding: 10px;
+ }
+ 
+ .div_qualifi{
+     width: 100%;
+     
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .caixa_arine{
+     text-align: left;
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .caixa_heitor{
+     text-align: right;
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ @media (max-width: 768px){
+ 
+     .caixa_arine{
+         text-align: center;
+         display: none;
+     }
+ 
+     .caixa_heitor{
+         text-align: center;
+     }
+ }
+ 
+ /*DISPLAY: NONE (É O QUE DESAPARECE)*/
+ 
+ .btn-outline-success{
+     background-color: lightpink;
+     border: solid 1px lightsalmon;
+     color: rgb(88, 88, 88);
+ }
+ 
+ 
+ .btn-outline-success:hover{
+     background-color: lightpink;
+     border: solid 1px lightsalmon;
+     opacity: 80%;
+ }
+ 
+ /* MUDAR A COR QUANDO SELECIONA COM O MOUSE */
+ .div_botao:hover{
+     background-color: pink;
+ }
+ 
+ .div_rodape{
+     width: 100%;
+     height: 300px;
+     background-color: lightgray;
+ }
+
+ .div_menu{
+     width: 100%;
+    height: 300px;
+    text-align: left;
+    font-size: 15px;
+    color:black;
+    float: left;
+    padding: 50px;   
+}
+
+.div_outros{
+    width: 100%;
+    height: 300px;
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    float: left;
+    padding: 50px;
+}
